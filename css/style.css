@@ -70,7 +70,7 @@ ul, ol {
 /* Navigation */
 .navbar-custom {
 	margin-bottom: 0;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	background-color: #000;
 }
 .navbar-custom .navbar-brand {
@@ -159,7 +159,8 @@ ul, ol {
 	letter-spacing: -2px;
 }
 .intro .intro-body .intro-text {
-	font-size: 18px;
+	font-size: 15px;
+	color: #22ff31;
 }
 
 @media(min-width:768px) {
@@ -174,8 +175,8 @@ ul, ol {
 }
 .intro .intro-body .intro-text {
 	font-size: 20px;
-	text-transform: uppercase;
-	letter-spacing: 8px;
+	/*text-transform: uppercase;*/
+	/*letter-spacing: 8px;*/
 	margin-bottom: 50px;
 }
 }
@@ -450,11 +451,11 @@ ol.type li:last-child:after {
 }
 ol.type li a {
 	color: #444;
-	padding: 2px 8px;
+	/*padding: 2px 8px;*/
 }
 ol.type li a.active {
 	background: #F4D03F;
-	padding: 2px 8px;
+	/*padding: 2px 8px;*/
 	border-radius: 4px;
 }
 ol.type li a:hover {
